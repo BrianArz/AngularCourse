@@ -1,7 +1,8 @@
 import './style.css';
+//import './topics/01-basic-types';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  Hola mundo 
+  Hello World! 
 `;
 
 console.log('Hello World');
